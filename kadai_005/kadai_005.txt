@@ -1,0 +1,23 @@
+C:\Users\sa030>mkdir git_challenge
+
+C:\Users\sa030>cd git_challenge
+
+C:\Users\sa030\git_challenge>git init
+Initialized empty Git repository in C:/Users/sa030/git_challenge/.git/
+
+C:\Users\sa030\git_challenge>git add hello_world.txt
+
+C:\Users\sa030\git_challenge>git commit -m "コミット1回目"
+[main (root-commit) a89c54d] コミット1回目
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+C:\Users\sa030\git_challenge>git add hello_world.txt
+
+C:\Users\sa030\git_challenge>git commit -m "コミット2回目"
+[main af762b2] コミット2回目
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\Users\sa030\git_challenge>git log --oneline
+af762b2 (HEAD -> main) コミット2回目
+a89c54d コミット1回目
